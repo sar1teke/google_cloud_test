@@ -38,6 +38,7 @@ app.post('/ekle', (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`Sunucu çalışıyor: http://localhost:${port}`);
+app.listen(3000, '0.0.0.0', () => {
+  console.log('Sunucu çalışıyor: http://0.0.0.0:3000');
 });
+
