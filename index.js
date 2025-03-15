@@ -7,10 +7,10 @@ const port = process.env.PORT || 3000;
 
 // PostgreSQL Bağlantısı
 const pool = new Pool({
-  user: 'ismail',
-  host: '34.59.3.14', // Cloud IP adresiniz
+  user: 'mustafa',
+  host: '34.66.221.16', // Cloud IP adresiniz
   database: 'phoenix',
-  password: '1',
+  password: '1QAZmlp0',
   port: 5432,
 });
 
